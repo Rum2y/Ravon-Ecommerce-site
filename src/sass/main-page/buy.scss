@@ -1,0 +1,153 @@
+// @import "/src/sass/main-page/nav.scss";
+// @import "/src/sass/main-page/main.scss";
+body {
+  background-color: white;
+}
+.other {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.show-product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-view {
+  height: 650px;
+  width: 500px;
+}
+.product-img {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.product-description {
+  width: 30%;
+}
+.add {
+  background-color: #019267;
+  color: white;
+  border-radius: 0;
+  padding: 3% 5%;
+  font-size: 1.2rem;
+  border: 1px solid #019267;
+  transition: 0.2s ease;
+}
+.add:hover {
+  background-color: #32ad88;
+  border: 1px solid #32ad88;
+}
+.star {
+  color: gold;
+}
+.desc {
+  color: grey;
+}
+.related {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.i {
+  width: 200px;
+  height: 250px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.rel-img {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.left,
+.right {
+  font-size: 2rem;
+  cursor: pointer;
+  color: lightgrey;
+  transition: 0.2s ease;
+}
+.left:hover,
+.right:hover {
+  color: gray;
+}
+.line {
+  width: 70%;
+  margin-bottom: 0;
+}
+.rel-title:hover {
+  cursor: pointer;
+  color: #ff6464;
+}
+.goto {
+  font-style: italic;
+  color: black;
+}
+.goto:hover {
+  color: darkgray;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #91c483;
+}
+.cat:hover {
+  background-color: #6baf58;
+  cursor: pointer;
+  color: white;
+}
+.second {
+  height: 7rem;
+  width: 5rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  filter: brightness(90%);
+}
+.second:hover {
+  filter: brightness(70%);
+}
+.wish-add {
+  background-color: #f37878;
+  color: white;
+  border-radius: 0;
+  padding: 3% 5%;
+  font-size: 1.2rem;
+  border: 1px solid #f37878;
+  transition: 0.2s ease;
+}
+.wish-add:hover {
+  background-color: #ecb390;
+  border: 1px solid #ecb390;
+}
+.wish-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.move {
+  width: 100%;
+  background-color: #32ad88;
+  padding: 2%;
+  color: white;
+  border: 1px solid #32ad88;
+}
+.move:hover {
+  background-color: #019267;
+}
+.w-null {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 42vh;
+  justify-content: center;
+}

@@ -1,0 +1,72 @@
+// @import "/src/sass/main-page/main.scss";
+
+.cart-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bag-div {
+  width: 50%;
+}
+.bag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bag-items {
+  background-color: white;
+  transition: 1s ease-in;
+}
+.img-c {
+  height: 150px;
+  width: 150px;
+}
+.b-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.subtotal {
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.cart-item-name {
+  width: 100%;
+}
+.close-div {
+  position: absolute;
+  top: 7%;
+  right: 7%;
+}
+.close {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.part {
+  margin: 0 auto;
+  width: 90%;
+}
+.checkout {
+  background-color: #019267;
+  color: white;
+  border-radius: 0;
+}
+.quant {
+  width: 20%;
+  border: 1px solid lightgray;
+}
+.amount {
+  font-size: 1.3rem;
+}
+.null {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  height: 42vh;
+  justify-content: center;
+}
+.fade {
+  opacity: 0;
+}

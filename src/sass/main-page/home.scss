@@ -1,0 +1,238 @@
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none !important;
+}
+.footer {
+  background-color: lightgray;
+}
+#Footer {
+  margin-top: auto;
+}
+.details {
+  color: #1c6dd0;
+}
+.service {
+  color: black;
+}
+.copyright {
+  background-color: gray;
+  color: #dddd;
+}
+.text {
+  color: black;
+  text-decoration: none;
+}
+.item {
+  font-weight: 600;
+}
+.email {
+  background-color: inherit;
+  border: 1px solid inherit;
+}
+.send {
+  background-color: #a3e4db;
+  border-radius: 5px;
+}
+.plane {
+  color: #eeeeee;
+}
+.new-img {
+  background-image: url("/src/images/pexels-karolina-grabowska-5632371.jpg");
+  background-size: cover;
+  background-position: bottom;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+.shop {
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+.arr-btn {
+  position: absolute;
+  bottom: 0;
+  border-radius: 15px;
+  padding: 1% 2%;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+}
+.arr-btn:hover {
+  color: black;
+}
+.b-cont {
+  height: 60vh;
+  position: relative;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.arr-content {
+  margin-bottom: 10%;
+}
+.arrival-header {
+  font-size: 4rem;
+}
+.o-img {
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  transition: 0.5s ease;
+}
+.h-img {
+  background-image: url("/src/images/sweatshirts-g72e144ece_1920.jpg");
+}
+.s-img {
+  background-image: url("/src/images/pexels-rodnae-productions-5698851.jpg");
+}
+.b-img {
+  background-image: url("/src/images/nike-gf08b9d1d1_1920.jpg");
+}
+.hoodies,
+.shirts,
+.blazers {
+  width: 30%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+  transition: 0.2s ease;
+}
+.c-btn {
+  border-radius: 0;
+  padding: 1.5% 5%;
+  color: black;
+  font-weight: 600;
+}
+.gro:hover {
+  cursor: pointer;
+}
+.gro:hover .o-img {
+  transform: scale(1.1);
+}
+.gro:hover .overlay-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.c-btn:hover .o-img {
+  transform: scale(1.1);
+}
+.c-btn:hover .overlay-2 {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.new-arrivals {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.arrival {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a-head {
+  font-weight: 900;
+}
+.a-img {
+  height: 25rem;
+  width: 300px;
+}
+.img-car {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.a-card {
+  transition: 0.2s ease;
+  border: 2px solid #f7f7f7;
+}
+.a-card:hover {
+  cursor: pointer;
+  border: 2px solid black;
+}
+.result-div {
+  text-align: center;
+}
+.left,
+.right {
+  font-size: 2rem;
+  cursor: pointer;
+  color: lightgrey;
+  transition: 0.2s ease;
+}
+.left:hover,
+.right:hover {
+  color: gray;
+}
+.backdrop {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back-img {
+  background-image: url("/src/images/cesar-couto-pC2xOplxsVs-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  position: absolute;
+}
+.new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.new-btn {
+  bottom: 0;
+  border-radius: 15px;
+  padding: 1% 2%;
+  color: white;
+  background-color: black;
+  font-weight: 600;
+}

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravon</title>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="src/images/favicon-32x32.png"
+    />
+
+    <!-- Font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/f4616737dd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap Links -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Css lnk -->
+    <link rel="stylesheet" href="src/sass/main-page/main.scss" />
+  </head>
+  <body>
+    <nav class="top-nav">
+      <div class="heading">
+        <div class="me-5">
+          <a class="logo" href="index.html">RaVon</a>
+        </div>
+        <div class="input-group input-group">
+          <span class="input-group-text search" id="inputGroup-sizing-sm"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></span>
+          <input
+            type="text"
+            class="form-control search-bar"
+            aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-sm"
+          />
+        </div>
+        <div class="cart-cont">
+          <div class="cart-div">
+            <div class="cart2">
+              <i class="bi bi-bag ms-5 cart"></i>
+            </div>
+            <div class="num-div">
+              <span class="num p-2"><strong>0</strong></span>
+            </div>
+          </div>
+          <div class="cart-drop hidden">
+            <div class="cart-items">
+              <div class="mt-3 hidden no-items">No Items here</div>
+              <!-- <div class="cart-info my-1 border-bottom p-2">
+              <div class="cart-img">
+                <img
+                  class="size"
+                  src="/src/images/nike-gf08b9d1d1_1920.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="cart-desc ms-2">
+                This is the product you have viewed
+              </div>
+            </div>
+            </div> -->
+            </div>
+
+            <div class="view-cart my-2">
+              <button class="btn btn-lg cart-btn">VIEW CART</button>
+            </div>
+          </div>
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="45"
+          height="45"
+          fill="currentColor"
+          class="bi bi-heart ms-4 heart"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"
+          />
+        </svg>
+      </div>
+    </nav>
+    <nav class="bottom-nav">
+      <div class="item p-3">All</div>
+      <div class="item p-3">Shirts</div>
+      <div class="item p-3">Bottoms</div>
+      <div class="item p-3">Footwear</div>
+      <div class="item p-3">Jackets</div>
+    </nav>
+    <div class="show-product mt-5">
+      <div class="container show mb-3">
+        <!-- <div class="product-img">
+          <img
+            class="second me-2 mt-5"
+            src="/src/images/sweatshirts-g72e144ece_1920.jpg"
+            alt=""
+          />
+          <img
+            class="img-view mt-5"
+            src="/src/images/nike-gf08b9d1d1_1920.jpg"
+            alt="..."
+          />
+        </div>
+        <div class="product-description">
+          <h1>Dell XPS 15 2022 Model</h1>
+          <h4 class="mt-1">Price</h4>
+          <p>For more information about the product, go to</p>
+          <div class="cart-add mt-5">
+            <button class="btn btn-lg add">Add to cart</button>
+          </div>
+
+          <h6>rating</h6>
+        </div> -->
+      </div>
+      <hr class="line" />
+      <div class="other">
+        <h3 class="mt-5">YOU MIGHT ALSO LIKE</h3>
+        <div class="related mt-5 mb-2 container">
+          <div class="next me-2">
+            <i class="fa-solid fa-chevron-left left"></i>
+          </div>
+          <div class="rel-img">
+            <!-- <div>
+            <img class="i mt- gap-2" src="/src/images/-fqyn4m.jpg" alt="..." />
+          </div> -->
+          </div>
+          <div class="next ms-2">
+            <i class="fa-solid fa-chevron-right right"></i>
+          </div>
+        </div>
+        <hr class="line mb-5" />
+      </div>
+    </div>
+    <!-- <input class="form-control" type="number" > -->
+    <section id="Footer">
+      <footer class="footer mt-5">
+        <div class="container py-5">
+          <div class="row py-4">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <!-- <img src="" alt="" width="180" class="mb-3" /> -->
+              <p class="font-italic text">
+                Welcome to the best e-store, where you can get quality products
+                at affordable prices.
+              </p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" title="twitter"
+                    ><i class="fa fa-twitter details"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" title="facebook"
+                    ><i class="fa fa-facebook details"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" title="instagram"
+                    ><i class="fa fa-instagram details"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" title="pinterest"
+                    ><i class="fa fa-pinterest details"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#" target="_blank" title="vimeo"
+                    ><i class="fa fa-vimeo details"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4 service">Shop</h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text">For Women</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">For Men</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">Stores</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">Our Blog</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4 service">
+                Company
+              </h6>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">
+                  <a href="#" class="text">Login</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">Register</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">Wishlist</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text">Our Products</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+              <h6 class="text-uppercase font-weight-bold mb-4 service">
+                Newsletter
+              </h6>
+              <p class="mb-4 text">
+                We just launched our first store in Los Angeles. Can't wait to
+                see you there.
+              </p>
+              <div class="input-group">
+                <input
+                  type="email"
+                  placeholder="Enter your email address"
+                  aria-describedby="button-addon1"
+                  class="form-control border-0 shadow-0"
+                />
+                <div class="input-group-append send">
+                  <button id="button-addon1" type="submit" class="btn btn-link">
+                    <i class="fa fa-paper-plane plane"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyrights -->
+        <div class="py-4 copyright">
+          <div class="container text-center">
+            <p class="mb-0 py-2">© 2022 Ravon All rights reserved.</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script type="module" src="/src/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image {
+  height: 100%;
+  transition: 0.5s ease;
+}
+.star {
+  color: black;
+}
+.spin {
+  font-size: 2.5rem;
+  animation: spinner 2s infinite;
+  color: black;
+  position: absolute;
+  left: 50%;
+}
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.no-result {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next {
+  text-decoration: none;
+  color: black;
+}
+.pages {
+  transition: 0.1s ease;
+}
+.pages:hover,
+.arrow:hover {
+  background-color: #ff6464;
+  cursor: pointer;
+}
+.partition {
+  width: 100%;
+  background-color: #eeeeee;
+  border-radius: 5px;
+}
+.page-number {
+  width: 100%;
+}
+.active {
+  background-color: #ff6464;
+}
+.span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.title:hover {
+  cursor: pointer;
+  color: grey;
+}
+.c-prod {
+  cursor: pointer;
+  height: 33rem;
+  overflow: hidden;
+  transition: 0.2s ease;
+}
+.c-prod:hover {
+  box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.4);
+  transform: scale(1.01);
+}
+.zoom {
+  overflow: hidden;
+  height: 450px;
+}
+.c-prod:hover .image {
+  transform: scale(1.1);
+}
+.load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.load-btn {
+  border: 1px solid black;
+  background-color: white;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "revon",
+  "version": "1.0.0",
+  "description": "e-commerce",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html product-page.html cart-page.html categories.html wish-list.html",
+    "build": "parcel build index.html product-page.html cart-page.html categories.html wish-list.html --dist-dir ./dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "@types/core-js": "^2.5.5",
+    "@types/regenerator-runtime": "^0.13.1",
+    "nodemon": "^2.0.19",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "@moltin/sdk": "^12.4.1",
+    "bootstrap-icons": "^1.9.1",
+    "core-js": "^3.23.5",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
